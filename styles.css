@@ -1,5 +1,84 @@
+
+
 body {
     background-color: hsl(225, 100%, 94%);
     background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: repeat-x;
+    font-family: "Red Hat Display", sans-serif;
+    color: #333;
+}
+
+.hero-img {
+    max-width: 100%;
+    min-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+h3 {
+    font-weight: 700;
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0px 30px;
+    line-height: 1.25rem;
+    color: hsl(0, 0%, 66%);
+}
+
+.container {
+    display: block;
+    position: relative;
+    margin: 10% auto;
+    background-color: white;
+    height: 500px;
+    width: 350px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0px 10px 20px hsla(231, 100%, 94%, 0.767);
+}
+
+.plan-container {
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    max-height: 60px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.icon-img {
+    height: 40px;
+    width: 40px;
+    padding-left: 10px;
+}
+
+.plan {
+    font-size: 14px;
+    padding: 20px;
+    line-height: 1.25rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 270px;
+  margin-top: 20px;
+  padding: 10px;
+  background: hsl(245, 75%, 52%);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
 }
